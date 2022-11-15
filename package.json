@@ -1,0 +1,14 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "MIT",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
