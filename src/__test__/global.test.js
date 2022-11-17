@@ -41,3 +41,14 @@ test("Probar una promesa", () => {
     expect(string).toBe("aloH");
   });
 });
+
+test("test async/await", async () => {
+  const string = await reverseString2("Hola");
+  expect(string).toBe("aloH")
+})
+
+afterEach(() => console.log("Despues de cada prueba"))
+afterAll(() => console.log("Despues de todas las pruebas"))
+
+beforeEach(() => console.log("Antes de cada prueba"))
+beforeAll(() => console.log("Antes de todas las pruebas"))
